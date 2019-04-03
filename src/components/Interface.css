@@ -1,0 +1,44 @@
+.interface{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+    justify-items: space-around;
+    flex-wrap: wrap;
+}
+
+.basics{
+    flex-direction: column;
+    width: calc(100% / 4);
+    height: 80%;
+}
+.basics button{
+    width: calc(100% - 10px);
+    height: calc(25% - 10px);
+}
+
+.basics1{
+    width: 100%;
+    height: 20%;
+}
+.basics1 button{
+    width: calc(25% - 10px);
+    height: calc(100% - 10px);
+}
+.numbers{
+    width: calc(100% * 3 / 4);
+    height: 80%;
+}
+
+.numbers button{
+    width: calc(33% - 10px);
+    height: calc(25% - 10px);
+    
+}
+button{
+    margin: 5px;
+}
