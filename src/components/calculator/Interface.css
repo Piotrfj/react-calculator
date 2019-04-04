@@ -1,7 +1,7 @@
 .interface{
     display: flex;
     flex-wrap: wrap;
-    height: 300px;
+    flex-grow: 1;
 }
 
 .btn-container{

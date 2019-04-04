@@ -1,0 +1,48 @@
+nav.mainNav{
+    max-width: 600px;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navDiv{
+    width: 100vw;
+    background-color: #eee;
+    border-bottom: 3px dashed black;
+}
+
+.mainNav a{
+    height: 50px;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #ddd;
+    padding: 10px 15px;
+    border: 2px solid black;
+    transition: .3s;
+}
+
+.mainNav a:hover{
+    border-bottom-width: 6px;
+    background-color: #fff;
+}
+
+a.active{
+    border-width: 4px;
+    padding: 8px 13px;
+}
+
+a.blue{
+    border-color: blue;
+}
+a.orange{
+    border-color: orange;
+}
+a.green{
+    border-color: green;
+}
